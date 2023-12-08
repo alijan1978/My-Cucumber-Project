@@ -1,0 +1,19 @@
+
+What is Maven?
+
+--- In Feature file, if there is a highlighted step... its because that we have not written the code for it.
+
+Why using TestNG or Cucumber ?
+    - Organize code, keep welElements separately. Offer more flexibility. Easy for us to modify specific code.
+    - Offer more control ver already Test automated cases
+
+Cucumber:
+    - Whatever code is written in TestNG or Selenium cannot be understandable for non-technical people.
+Cucumber framework written in BDD approach, which defines the behavior of the features.
+There are two important components in framework
+    1. Feature files
+    2. Step Definitions
+
+
+
+
