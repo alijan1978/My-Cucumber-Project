@@ -29,6 +29,7 @@ public class CommonMethods extends PageInitializer {
         ConfigReader.readProperties();
 
         String browserType = ConfigReader.getPropertyValue("browserType");
+
         switch (browserType) {
             case "Chrome":
                 ChromeOptions ops = new ChromeOptions();
@@ -39,6 +40,7 @@ public class CommonMethods extends PageInitializer {
                 }
                 driver = new ChromeDriver(ops); // pass the ops object of ChromeOptions here/ browser disappear
                 break;
+
             case "Firefox":
                 driver = new FirefoxDriver();
                 break;
